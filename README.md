@@ -1,4 +1,4 @@
-✦ Netflix Clone
+# Netflix Clone
 
 This project is a straightforward replica of the Netflix landing page created using HTML and CSS. It aims to closely mimic the design and layout of the official Netflix homepage.
 
