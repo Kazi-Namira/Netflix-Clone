@@ -4,7 +4,7 @@ This project is a straightforward replica of the Netflix landing page created us
 
 # Live Demo
 
-Explore the live version of this project here: https://kazinamira.github.io/Netflix-clone/
+Explore the live version of this project here: https://namira-netflix.surge.sh/
 
 # Project Overview
 
