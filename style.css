@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+.main {
+  background-image: url(Assets/Images/BG.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 700px;
+}
+
+/* Background image k ektu blackish korar jonno */
+.box {
+  height: 700px;
+  width: 100%;
+  opacity: 0.69;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  border-bottom: 8px solid rgba(128, 128, 128, 0.576);
+}
+
+nav {
+  max-width: 60vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+nav img {
+  color: rgb(229, 9, 20);
+  width: 135px;
+  position: relative;
+  z-index: 10;
+  opacity: 0.77;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  color: white;
+  position: relative;
+  height: calc(100%-62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 23px;
+  margin: auto;
+  padding: 175px 30px;
+}
+
+.hero h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero p {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.nav-right-side {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-right-side :nth-child(1) {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.545);
+  border-image: initial;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-right-side :nth-child(2) {
+  background-color: red;
+  color: white;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px;
+  cursor: pointer;
+}
+
+.search-box {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box input {
+  background-color: transparent;
+  color: white;
+  padding: 8px 22px;
+  height: 24px;
+  width: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.547);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.search-box button {
+  background-color: red;
+  color: white;
+  padding: 10px 22px;
+  border: 1px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.first {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 55px 175px;
+
+  padding: 34px 0;
+}
+
+.first-desc {
+  font-size: 30px;
+  color: white;
+  /* margin-right: 30px; */
+}
+
+.first-desc h2 {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.first-desc p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.first-img {
+  position: relative;
+}
+
+.first-img img {
+  position: relative;
+  z-index: 10;
+}
+
+.first-img video {
+  position: absolute;
+  top: 90px;
+  right: 77px;
+}
+
+.separation-line {
+  border-bottom: 8px solid rgba(128, 128, 128, 0.576);
+  opacity: 0.69;
+}
+
+.faq {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.faq h1 {
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+/* 'Hover' = cursor point krle different color dekhabe. For details check Google */
+.faq-box:hover {
+  background-color: rgba(128, 128, 128, 0.598);
+  color: white;
+}
+
+.faq-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.388);
+  padding: 24px;
+  margin: 7px 175px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.size-6 {
+  height: 20px;
+  width: 20px;
+}
+
+.faq-email {
+  padding: 10px;
+}
+
+.faq-email p {
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin: 70px 175px;
+  padding: 0 50px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-ques {
+  margin-left: 10px;
+}
+
+.footer-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 60vw;
+  gap: 125px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item a {
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+.footer-lang button {
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.545);
+  border-image: initial;
+  border-radius: 5px;
+  margin: 30px 10px;
+  cursor: pointer;
+}
+
+.footer-lang p {
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 1300px) {
+  .main {
+    background-size: max(1300px, 100vw);
+  }
+  nav {
+    max-width: 90vw;
+  }
+
+  nav img {
+    width: 100px;
+  }
+
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-box button {
+    font-size: 10px;
+  }
+
+  .first {
+    flex-wrap: wrap;
+    margin: 8px 80px;
+    padding: 13px 0;
+  }
+
+  footer {
+    margin: 20px 3px;
+    font-size: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 60vw;
+    gap: 0px;
+  }
+
+  .first-img img {
+    width: 310px;
+  }
+
+  .first-img video {
+    width: 260px;
+    top: 40px;
+    right: 8px;
+  }
+
+  .hero {
+    gap: 30px;
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .faq {
+    margin: 30px 0;
+  }
+
+  .faq-box {
+    margin: 20px 47px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .first-desc h2 {
+    font-size: 30px;
+  }
+
+  .first-desc p {
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+
+  .faq-email p {
+    font-size: 23px;
+    padding: 0 16px;
+  }
+}
