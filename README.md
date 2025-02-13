@@ -4,7 +4,7 @@ This project is a straightforward replica of the Netflix landing page created us
 
 # Live Demo
 
-Explore the live version of this project here: https://kazi-namira.github.io/1st-Clone/
+Explore the live version of this project here: https://netflix-clone-three-coral.vercel.app/
 
 # Project Overview
 
