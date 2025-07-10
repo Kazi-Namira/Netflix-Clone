@@ -4,7 +4,7 @@ This project is a straightforward replica of the Netflix landing page created us
 
 # Live Demo
 
-Explore the live version of this project here: https://netflixclone-steel-chi.vercel.app/
+Explore the live version of this project here: https://netflix-clone-rk53czufu-namira-meyheg-s-projects.vercel.app/
 # Project Overview
 
 The purpose of this project is to enhance understanding of web development fundamentals, specifically focusing on HTML and CSS. By replicating the Netflix landing page, the goal is to refine skills in layout design, responsive design techniques, and modern user interface principles.
